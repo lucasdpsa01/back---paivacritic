@@ -67,10 +67,10 @@ router.post('/', async (req, res) => {
 });
 
 // Rota para deletar uma sugestão por nome
-router.delete('/:nome', async (req, res) => {
+router.delete('/:id', async (req, res) => {
     try {
-        const { nome } = req.params;
-        const sugestao = await Sugestao.findOne({ where: { nome } });
+        const { id } = req.params;
+        const sugestao = await Sugestao.findByPk(id);
 
         if (!sugestao) {
             return res.status(404).json({ error: "Sugestão não encontrada." });
