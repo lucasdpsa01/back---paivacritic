@@ -56,6 +56,9 @@ Resposta: ``` 200 OK ```
   }
 ]
 ```
+### Deletar
+/// No próximo commit eu adiciono
+
 
 ## 🛠 Erros Comuns
 
