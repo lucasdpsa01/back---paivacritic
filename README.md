@@ -80,10 +80,3 @@ npm run dev
 
 Fork → Branch → Commit → PR
 
-## 📌 Licença
-
-```css
-
-Esse modelo mantém a **clareza** e **objetividade** de uma boa documentação, mas sem poluir com detalhes excessivos. Dá para entender rapidamente como usar a API. 🚀
-
-```
